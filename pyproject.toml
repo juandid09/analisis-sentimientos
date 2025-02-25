@@ -1,0 +1,26 @@
+[project]
+name = "proyect"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "blinker>=1.9.0",
+    "cachetools>=5.5.1",
+    "click>=8.1.8",
+    "fpdf>=1.7.2",
+    "langdetect>=1.0.9",
+    "protobuf>=5.29.3",
+    "pyautogui>=0.9.54",
+    "pypdf2>=3.0.1",
+    "pytest>=8.3.4",
+    "six>=1.17.0",
+    "streamlit>=1.42.1",
+    "torch>=2.6.0",
+    "torchvision>=0.21.0",
+    "tornado>=6.4.2",
+    "transformers>=4.49.0",
+    "typing-extensions>=4.12.2",
+    "xlib>=0.21",
+]
+

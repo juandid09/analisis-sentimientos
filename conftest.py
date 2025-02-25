@@ -5,4 +5,8 @@ from pathlib import Path
 src_path = Path(__file__).resolve().parent.parent / "src"
 
 # Agregar src al PYTHONPATH
+<<<<<<< HEAD
 sys.path.append(str(src_path))
+=======
+sys.path.append(str(src_path)) 
+>>>>>>> master

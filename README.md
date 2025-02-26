@@ -18,15 +18,15 @@ El objetivo principal de este proyecto es desarrollar una aplicación que permit
 
 ## Estructura del Proyecto
 El repositorio está organizado de la siguiente manera:
--src/: Contiene el código fuente principal de la aplicación.
--models/: Almacena los modelos de Hugging Face utilizados para el análisis.
--tests/: Incluye pruebas unitarias y de integración para asegurar el correcto funcionamiento del sistema.
--assets/fonts/: Contiene las fuentes utilizadas en la interfaz de usuario.
--results/: Directorio destinado a almacenar los resultados generados por la aplicación.
+- src/: Contiene el código fuente principal de la aplicación.
+- models/: Almacena los modelos de Hugging Face utilizados para el análisis.
+- tests/: Incluye pruebas unitarias y de integración para asegurar el correcto funcionamiento del sistema.
+- assets/fonts/: Contiene las fuentes utilizadas en la interfaz de usuario.
+- results/: Directorio destinado a almacenar los resultados generados por la aplicación.
 
 ## Observaciones 
--El archivo que se debe ejecutar esta en src/main.py este archivo es la GUI encargada de ejecutar todo el programa siguiendo el patron de desarrollo movelo, vista controlador. 
--el modelo cuenta con validaciones como si se ingresa texto y se sube un archivo el archivo tiene la prioridad y se sobreescribe tambien esta la validacion de que si no se ha ingresado el texto no realiza el analizis ni creacion de archivos.
+- El archivo que se debe ejecutar esta en src/main.py este archivo es la GUI encargada de ejecutar todo el programa siguiendo el patron de desarrollo movelo, vista controlador. 
+- el modelo cuenta con validaciones como si se ingresa texto y se sube un archivo el archivo tiene la prioridad y se sobreescribe tambien esta la validacion de que si no se ha ingresado el texto no realiza el analizis ni creacion de archivos.
 
 ## Recursos del Proyecto
 Archivo Docker: https://drive.google.com/file/d/1chGgNVcmmttn91aTSeMWXxskpGCMoboR/view
@@ -38,11 +38,12 @@ Repositorio GitHub: https://github.com/juandid09/analisis-sentimientos
 Documentación: https://drive.google.com/file/d/14oyb4NtME74qY13t2nDZDT-qGnz2TOGf/view?usp=drive_link
 
 ## Requisitos
--python 3.12 o superior
--uvicorn
--Streamlit
--transformers de Hugging Face
--torch
+principalmente estas dependencias. 
+- python 3.12 o superior
+- uvicorn
+- Streamlit
+- transformers de Hugging Face
+- torch
 
 ## Instalacion desde repositiorio
 1. Clonar el repositorio:
@@ -66,13 +67,27 @@ Documentación: https://drive.google.com/file/d/14oyb4NtME74qY13t2nDZDT-qGnz2TOG
 al ejecutatarse el proyecto se cuenta con dos opciones 
 1. ingresar texto
 2. subir archivo txt o pdf
--una vez se ingrese el texto o se suba el archivo se da clic en el boton analizar. En este momento el retornara la puntuacion con la emosion, Cabe señalar que existe una validacion que permite hacer una cosa a la vez evitando errores.
--una vez analizado retornara una calificacion y detectara el idioma con mas de 30% de probabilidad
--tambien estan las opciones de guardar pdf unitario, historico pdf, scv unitario,scv historico y pantallazo estas opciones permitiendo guardar los resultados de manera individual en un archivo en unas carpetas especificas creadas ya sea individualmente o por antesedente que agrupa los diferentes analisis.
+- una vez se ingrese el texto o se suba el archivo se da clic en el boton analizar. En este momento el retornara la puntuacion con la emosion, Cabe señalar que existe una validacion que permite hacer una cosa a la vez evitando errores.
+- una vez analizado retornara una calificacion y detectara el idioma con mas de 30% de probabilidad
+- tambien estan las opciones de guardar pdf unitario, historico pdf, scv unitario,scv historico y pantallazo estas opciones permitiendo guardar los resultados de manera individual en un archivo en unas carpetas especificas creadas ya sea individualmente o por antesedente que agrupa los diferentes analisis.
 
 ## Explicación de los Archivos
-### view. py: 
-Es el archivo principal que maneja la interfaz gráfica usando Tkinter. Permite cargar imágenes, realizar predicciones, mostrar resultados y generar reportes.
+### main. py: 
+Implementa la interfaz gráfica en Streamlit, gestiona la carga de archivos, muestra resultados y contiene todos lo botones para generar archivos
+### load_model.py: 
+Carga el modelo BERT y el tokenizador para el análisis de sentimientos.
+### detect_language.py:
+Detecta el idioma del texto con una probabilidad mínima del 30%.
+### sentiment_analysis.py:
+Tokeniza el texto y lo analiza utilizando el modelo cargado en load_model.py
+### extract_text_from_pdf.py:
+Extrae texto de archivos PDF.
+### save_csv.py / save_pdf.py
+Guardan los resultados en archivos CSV y PDF, respectivamente.
+### save_screenshot.py
+Captura y guarda una imagen de los resultados.
+### archivos directorios test 
+son las pruebas que se ejecutan en pytets
 
 ## Licencia
 se publica bajo la licencia la cual esta disponible aqui: [LICENSE.py](https://github.com/juandid09/analisis-sentimientos/blob/main/LICENSE)

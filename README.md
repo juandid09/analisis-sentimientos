@@ -35,7 +35,7 @@ Tutorial: https://drive.google.com/file/d/1_yovclEGbwSK_R9l5P__CDqyQn9UVh4m/view
 
 Repositorio GitHub: https://github.com/juandid09/analisis-sentimientos
 
-Documentación: https://drive.google.com/file/d/14oyb4NtME74qY13t2nDZDT-qGnz2TOGf/view?usp=drive_link
+Documentación: https://drive.google.com/file/d/1lG9NFDvuCk_kvU5S2NdmiatzygqwtBHI/view?usp=sharing
 
 DataSet: https://drive.google.com/drive/folders/1DOcWALnlstm_s2iiXy6kvJkSFFAI3lom
 

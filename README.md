@@ -32,7 +32,7 @@ Archivo Docker: https://drive.google.com/file/d/1chGgNVcmmttn91aTSeMWXxskpGCMobo
 
 Tutorial: https://drive.google.com/file/d/1VQizObXTqtse7I4XWPI4w33etj-lkmSv/view?usp=sharing
 
-Repositorio GitHub: https://github.com/juandid09/uao_neumonia2/tree/main?tab=readme-ov-file
+Repositorio GitHub: https://github.com/juandid09/analisis-sentimientos
 
 Documentación: https://drive.google.com/file/d/14oyb4NtME74qY13t2nDZDT-qGnz2TOGf/view?usp=drive_link
 

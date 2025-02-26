@@ -31,7 +31,7 @@ El repositorio está organizado de la siguiente manera:
 ## Recursos del Proyecto
 Archivo Docker: https://drive.google.com/file/d/1rm4Fzgxyo2SnbJITbBjiLjpvRjWxXS5h/view
 
-Tutorial: https://drive.google.com/file/d/1VQizObXTqtse7I4XWPI4w33etj-lkmSv/view?usp=sharing
+Tutorial: https://drive.google.com/file/d/1_yovclEGbwSK_R9l5P__CDqyQn9UVh4m/view
 
 Repositorio GitHub: https://github.com/juandid09/analisis-sentimientos
 

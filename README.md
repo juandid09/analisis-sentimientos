@@ -70,3 +70,11 @@ al ejecutatarse el proyecto se cuenta con dos opciones
 -tambien estan las opciones de guardar pdf unitario, historico pdf, scv unitario,scv historico y pantallazo estas opciones permitiendo guardar los resultados de manera individual en un archivo en unas carpetas especificas creadas ya sea individualmente o por antesedente que agrupa los diferentes analisis.
 
 ## Explicación de los Archivos
+### view. py: 
+Es el archivo principal que maneja la interfaz gráfica usando Tkinter. Permite cargar imágenes, realizar predicciones, mostrar resultados y generar reportes.
+
+## Licencia
+se publica bajo la licencia la cual esta disponible aqui: [LICENSE.py](https://github.com/juandid09/uao_neumonia2/blob/main/LICENSE)
+
+## Contribuciones
+si se ve producente hacer alguna observación, corrección  o contribución el proyecto esta en disponibilidad  de hacer fork y abrir un pull request.  

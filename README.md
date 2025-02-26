@@ -39,6 +39,10 @@ Documentación: https://drive.google.com/file/d/1lG9NFDvuCk_kvU5S2NdmiatzygqwtBH
 
 DataSet: https://drive.google.com/drive/folders/1DOcWALnlstm_s2iiXy6kvJkSFFAI3lom
 
+Cronograma: https://drive.google.com/file/d/1tbOqLqiyfsRkJli00CGV9WxD9EVxuxFI/view?usp=sharing
+
+Trello: https://trello.com/invite/b/67ab67f657485b812b1d7393/ATTI5262d7711fef9fd1a6c83bf16cb2958838F8D397/proyecto-final
+
 ## Requisitos
 principalmente estas dependencias. 
 - python 3.12 o superior

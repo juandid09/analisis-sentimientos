@@ -74,7 +74,7 @@ al ejecutatarse el proyecto se cuenta con dos opciones
 Es el archivo principal que maneja la interfaz gráfica usando Tkinter. Permite cargar imágenes, realizar predicciones, mostrar resultados y generar reportes.
 
 ## Licencia
-se publica bajo la licencia la cual esta disponible aqui: [LICENSE.py](https://github.com/juandid09/uao_neumonia2/blob/main/LICENSE)
+se publica bajo la licencia la cual esta disponible aqui: [LICENSE.py](https://github.com/juandid09/analisis-sentimientos/blob/main/LICENSE)
 
 ## Contribuciones
 si se ve producente hacer alguna observación, corrección  o contribución el proyecto esta en disponibilidad  de hacer fork y abrir un pull request.  

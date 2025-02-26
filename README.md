@@ -25,7 +25,8 @@ El repositorio está organizado de la siguiente manera:
 -results/: Directorio destinado a almacenar los resultados generados por la aplicación.
 
 ## Observaciones 
-El archivo que se debe ejecutar esta en src/main.py este archivo es la GUI encargada de ejecutar todo el programa siguiendo el patron de desarrollo movelo, vista controlador. 
+-El archivo que se debe ejecutar esta en src/main.py este archivo es la GUI encargada de ejecutar todo el programa siguiendo el patron de desarrollo movelo, vista controlador. 
+-el modelo cuenta con validaciones como si se ingresa texto y se sube un archivo el archivo tiene la prioridad y se sobreescribe tambien esta la validacion de que si no se ha ingresado el texto no realiza el analizis ni creacion de archivos.
 
 ## Recursos del Proyecto
 Archivo Docker: https://drive.google.com/file/d/1chGgNVcmmttn91aTSeMWXxskpGCMoboR/view

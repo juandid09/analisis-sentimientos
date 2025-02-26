@@ -37,6 +37,8 @@ Repositorio GitHub: https://github.com/juandid09/analisis-sentimientos
 
 Documentación: https://drive.google.com/file/d/14oyb4NtME74qY13t2nDZDT-qGnz2TOGf/view?usp=drive_link
 
+DataSet: https://drive.google.com/drive/folders/1DOcWALnlstm_s2iiXy6kvJkSFFAI3lom
+
 ## Requisitos
 principalmente estas dependencias. 
 - python 3.12 o superior
